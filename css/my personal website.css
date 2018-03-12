@@ -1,0 +1,129 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(Background.jpg);
+  background-color:white;
+  background-size:cover;  
+}
+h1{
+     font-family:'Curlz MT';
+    color:RGB(240,202,68);
+    border-color:beige;
+    text-shadow: 2px 2px black;
+   float: left;
+  
+}
+h2{
+    text-shadow: 3px 2px black;
+    
+}
+h3{
+    text-shadow: 4px 3px black;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 100px;
+}
+h4{
+    font-size: 28px;
+    text-shadow: 4px 3px black;
+    margin-top: 50px;
+}
+.p1{
+    font-family: sans-serif;
+    text-align: center;
+    color:bisque;
+    width: 770px;
+    float: inherit;
+    margin-top: 100px;
+}
+.p2{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.p3{
+    font-size: 24px;
+    font-family: serif;
+    color:RGB(240,202,68);
+}
+nav{
+    color: white;
+    text-align: center;
+    
+}
+a{
+    color: aliceblue;
+}
+.box{
+  width: 900px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  color:lightyellow;
+  font-family:serif;
+}
+
+.boximg{
+  border-radius: 30%;
+  width: 250px;
+  height:350px;
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+
+
+}
+.exp-img{
+  border-radius:10%;
+  width: 700px;
+  height:400px;
+  margin-top: 5%;
+}
+
+.gallery img{
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10%;
+    text-align: left;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.gallery {
+     margin: 30px 50px;
+    float: inherit;
+}
+
+
+.project img{
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10%;
+    margin-top: 10px;
+
+}
+.project img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.project{
+    margin: 30px 50px;
+   float: inherit;
+}
+
+.section1{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 850px;
+    height: 150px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color:lightgray;
+}
